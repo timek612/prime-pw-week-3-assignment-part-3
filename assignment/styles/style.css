@@ -1,5 +1,26 @@
 /* give your assignment a fun background color */
-html ,body {
-    background-color: darkkhaki;
+body {
+   animation-name: backgroundColorPalette;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
 }
 
+@keyframes backgroundColorPalette {
+    0% {
+        background: #fac8cd;
+    }
+    25% {
+        background: #d7bcc8;
+    }
+    50% {
+        background: #98b6b1;
+    }
+    75% {
+        background: #629677;
+    }
+    100% {
+        background: #b28860;
+    }
+}
